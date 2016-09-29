@@ -10,6 +10,7 @@ namespace XpTilbud
         public XpDataModel()
             : base("name=XpDataModel")
         {
+            base.Configuration.ProxyCreationEnabled = false;
         }
 
         public virtual DbSet<Kaede> Kaede { get; set; }
