@@ -16,7 +16,7 @@ namespace XpTilbud
         }
 
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Vare_ID { get; set; }
 
         [Required]

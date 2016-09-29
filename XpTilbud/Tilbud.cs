@@ -10,7 +10,7 @@ namespace XpTilbud
     public partial class Tilbud
     {
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Tilbud_ID { get; set; }
 
         public int Fk_Vare_ID { get; set; }
