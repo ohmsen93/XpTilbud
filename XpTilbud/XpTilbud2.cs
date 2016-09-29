@@ -10,6 +10,7 @@ namespace XpTilbud
         public XpTilbud2()
             : base("name=XpTilbud2")
         {
+            base.Configuration.ProxyCreationEnabled = false;
         }
 
         public virtual DbSet<Kampagne> Kampagne { get; set; }
